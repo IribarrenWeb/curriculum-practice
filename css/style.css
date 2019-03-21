@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	background-color: #fff7dfc2 !important;
+	max-width: 2000px;
+	font-family: "Andale Mono", AndaleMono, monospace!important;
+}
+
+.separador{
+	background-color: #fff7dfc2 !important;
+	width: 100%;
+	height: 50px;
+}
+
+
+/* header css----------------------------------------- */
+header{
+	width: 100%;
+	height: 40vw;
+}
+.fotoheader{
+	background: url("../img/code1.png");
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+/* header css------------------------------------------ */
+
+/* body css--------------------------------------------- */
+.contbody{
+	width: 80%;
+	margin: -31% auto;
+	background-color: white;
+	text-align: center;
+}
+/* body css--------------------------------------------- */
+
+/* perfil css------------------------------------------- */
+.fotoperfil{
+	padding-top: 5%; 
+	padding-bottom: 4.2%;
+	background-image: url("../img/pared1.jpg");
+	background-size: cover;
+}
+.fotoperfil h1{
+	font-size: 2vw;
+}
+.fotoperfil h3{
+	font-size: 1.7vw;
+	color: white !important;
+	text-align: center;
+	text-shadow: 1px 1px 0px black;
+}
+.fotoperfil img{
+	border-radius: 50%;
+	width: 15%;
+	border: 5px outset orange;
+	margin-bottom: 2%;
+	box-shadow: 0px 0px 9px black;
+}
+/* perfil css--------------------------------------------- */
+
+/* Menu css----------------------------------------------- */
+.navigation{
+	background-color: lightgrey;
+	height: 30%;
+	box-shadow: 0px 5px 14px #383d417a;
+}
+.navili{
+	margin-bottom: 0!important;
+	width: 100%;
+	border-top: 5px inset orange;
+	border-bottom:  5px inset orange;
+}
+.navili li{
+	font-size: 1.8vw;
+	width: 100%;
+}
+.navili li a{
+	display: block;
+	color: #000000a6 !important;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.navili li a:hover{
+	background-color: grey;
+	text-decoration: none;
+	color: orange !important;
+}
+/* Menu css----------------------------------------------- */
+
+/* Estudios css------------------------------------------- */
+.bio{
+	box-shadow:0px 8px 10px lightgrey;
+}
+.bio,p{
+	padding: 2%;
+}
+.bio p{
+	text-align: justify;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-size: 1.2vw;
+}
+hr{
+	width: 95%;
+	margin: auto;
+}
+
+#p{
+	width: 95%;
+	background-color: orange !important;
+	margin: auto;
+}
+.estudios{
+	padding-bottom: 8%;
+}
+ .estudios h3{
+	font-size: 2vw;
+	padding: .6%;
+	text-align: center;
+	margin-top:5%;
+	margin-left: 8%;
+	background-color: orange;
+	width: 30%;
+	border-left: 10px solid grey;
+	color: white;
+	text-shadow: 1px 1px 0px grey;
+}
+.h1-2{
+	border-bottom: 3px solid orange;
+	width: 30%;
+	margin: 5% auto;
+	font-size: 2.5vw;
+}
+.contest{
+	text-align: initial;
+	padding-left: 8%;
+	font-size: 1.5vw;
+}
+.titul{
+	font-weight: bolder;
+}
+/* Estudios css------------------------------------------- */
+
+/* form css----------------------------------------------- */
+
+form{
+	width: 90%;
+	margin: auto;
+}
+/*form css----------------------------------------------*/
+
+/* colors-----------------------------------------------*/
+.bg-blue{
+	background-color: #006bc0 !important;
+}
+.bg-green{
+	background-color: #3ca420 !important;
+}
+.bg-orange{
+	background-color: #dd512a !important;
+}
+/* colors-----------------------------------------------*/
+
+/*  shadowt skills------------------------------------- */
+.skills{
+	text-shadow: 1px 1px 0px black;
+	color: white;
+}
+.containerskills{
+	background-color: orange;
+	padding: 5%;
+	border-radius: 10px;
+}
+/*  shadowt skills------------------------------------- */
